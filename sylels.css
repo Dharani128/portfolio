@@ -10,11 +10,13 @@ background:black;
 
 /* Main area */
 
+
 .right img{
     width:350px;
     height:350px;
     border-radius:50%;
-    object-fit:cover;
+    object-fit:contain;
+    background:white;
 }
 
 }
