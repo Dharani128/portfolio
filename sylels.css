@@ -10,17 +10,12 @@ background:black;
 
 /* Main area */
 
-.container{
-
-height:100vh;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-padding:60px;
+.right img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    object-fit:cover;
+}
 
 }
 
