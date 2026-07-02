@@ -116,49 +116,31 @@ nav a:hover{
 
 @media (max-width:768px){
 
-    nav{
-        gap:25px;
-        padding:15px;
-    }
+.container{
+    flex-direction:column;
+    text-align:center;
+}
 
-    nav a{
-        font-size:18px;
-    }
+.image{
+    width:280px;
+    height:280px;
+    margin-top:30px;
+}
 
-    .container{
-        flex-direction:column-reverse;
-        text-align:center;
-    }
+.content h1{
+    font-size:55px;
+}
 
-    .left{
-        width:100%;
-    }
+.content h2{
+    font-size:40px;
+}
 
-    .right{
-        width:100%;
-        display:flex;
-        justify-content:center;
-    }
+.content p{
+    font-size:20px;
+}
 
-    .right img{
-        width:250px;
-        height:250px;
-    }
-
-    h1{
-        font-size:60px;
-    }
-
-    h2{
-        font-size:35px;
-    }
-
-    p{
-        font-size:20px;
-    }
-
-    button{
-        margin-top:20px;
-    }
+nav{
+    gap:25px;
+}
 
 }
